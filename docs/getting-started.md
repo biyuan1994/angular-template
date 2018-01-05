@@ -1,0 +1,55 @@
+# 开发文档
+
+## 预期业务组件<feature>
+- Dashborad（展示版(暂时空缺)）
+- Channel（通道管理）
+  - ChannelPool（通道池）
+  - SeniorPool（资质池）
+  - Place（渠道管理）
+  - PlaceInfo（渠道信息）
+  - ChannelGroup（通道组管理）
+- Financial（账务管理）
+  - MerchantStatement（商户对账）
+  - PlaceStatement（渠道对账）
+  - Newpay（新增代付）
+  - Payment（代付记录）
+- Merchant（商户管理）
+  - Merchants（商户管理）
+  - AppReview（App申请管理）
+  - AppConfig（收银台配置）
+  - Order（订单管理）
+- Exception（预警与异常）
+  - WarnHistory（预警历史）
+  - BlacklistInfo（黑名单信息管理）
+  - BlacklistTrigger（黑名单触发记录）
+- Settings（系统设置）
+  - User（用户管理）
+  - Role（角色管理）
+  - Permission（权限设置）
+- Login（登录）
+
+## 预期UI组件<simple>
+- [ ] Dialog 对话框组件
+- [ ] Tabs 选标签页组件
+- [ ] Select 选择器组件（单/多）
+- [ ] Table 复杂表格组件
+- [ ] Confirm 确认框组件
+- [ ] Pagination 分页组件
+- [ ] Button 按钮组件
+- [ ] Upload 上传组件
+- [ ] Badge 徽标数组件
+- [ ] Status 状态点组件
+- [ ] AreaPocker 地区选择组件（单/多）
+- [ ] TimePicker 时间选择组件（单/双）
+- [ ] DatePicker 日期时间选择组件（单/双）
+- [ ] UrbanPicker 地址选择组件
+- [ ] RadckboxGroup 多选组件
+- [ ] PicioGroup 单选组件
+- [ ] CheturePreview 图片预览组件
+- [ ] Toast 消息提醒组件
+- [ ] Tree 树型组件
+- [ ] InputNumber 数字输入组件
+- [ ] Popover 气泡卡片组件
+- [ ] Tooltip 文字提示组件
+- [ ] Spin 加载中组件
+- [ ] BackTop 回到顶部组件

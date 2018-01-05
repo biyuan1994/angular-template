@@ -1,12 +1,17 @@
-import { Component } from '@angular/core';
-
+import { Component, AfterContentInit } from '@angular/core';
+import { environment } from '@env/environment';
 @Component({
- selector: 'app-root',
- template: `
-   <h1>{{title}}</h1>
-   <my-heroes></my-heroes>
- `
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
- title = 'Tour of Heroes';
+export class AppComponent implements AfterContentInit {
+  title = environment.title;
+  ngAfterContentInit() {
+    console.log('ngAfterContentInit');
+    const timer = setTimeout(() => {
+      document.body.removeChild(document.querySelector('#bootloader'));
+      clearTimeout(timer);
+    }, 1000);
+  }
 }
